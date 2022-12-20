@@ -1,0 +1,4 @@
+USE pds;
+SELECT JOB_ID, count(EMPLOYEE_ID)
+FROM employees
+GROUP BY JOB_ID
